@@ -16,18 +16,17 @@ public class Stars {
             }
             System.out.println(" ");
         }
-
-        for(int i = 3; i >= 0 ; i--) {
-            for(int j = 0 ; j<3-i;j++) {
+        
+        for(int i=0;i<starNumber;i++){
+            for(int j=0;j<=i;j++){
                 System.out.print(" ");
-            }
-            for(int j = 0;j<i * 2 ; j++) {
+            }   
+            for(int k=2*starNumber-1;k>=(2*i+1);k--){
                 System.out.print("*");
+                
             }
-            for(int k = starNumber;k<=i;k++){
-                System.out.println(" ");
-            }
-            System.out.println(" ");
+                System.out.println();   
+
         }
     }
 }
