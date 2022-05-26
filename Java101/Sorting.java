@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Sorting {
@@ -27,5 +28,6 @@ public class Sorting {
         {
             System.out.println("Dizinin " + (i+1) + ". elemanını : " + dizi[i]);
         }
+
     }
 }
